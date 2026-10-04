@@ -12,6 +12,14 @@ dist
 dist-ssr
 *.local
 
+# Project-specific cleanup
+.claude/
+build-plan.md
+technical_scalability_image_correlation.md
+product_validation_using_image_correlation.md
+Product_validation_using_image_correlation_links.txt
+"Visual Theme.txt"
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
