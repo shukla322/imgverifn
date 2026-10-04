@@ -27,7 +27,8 @@ const PAIRS = [
 ];
 
 function imageUrl(folder, filename) {
-  return `/images/${folder}/${encodeURIComponent(filename)}`;
+  const base = import.meta.env.BASE_URL || '/';
+  return `${base}images/${folder}/${encodeURIComponent(filename)}`;
 }
 
 // ---------------------------------------------------------------------------
